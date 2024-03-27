@@ -11,3 +11,5 @@ git commit -m "$message"
 
 # Push changes to remote
 git push origin main
+
+new line

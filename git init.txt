@@ -1,0 +1,9 @@
+git init
+git config --global user.name "Quang"
+git config --global user.email "quangdtt99@gmail.com"
+git branch -M main
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/kwang3129/opn_ids_rule.git
+git config --global credential.helper store
+git push -u origin main

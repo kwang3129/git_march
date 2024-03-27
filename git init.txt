@@ -7,3 +7,9 @@ git commit -m "first commit"
 git remote add origin https://github.com/kwang3129/opn_ids_rule.git
 git config --global credential.helper store
 git push -u origin main
+
+
+
+
+#Crontab
+0       *       *       *       *       root    /bin/sh /root/auto-push.sh
